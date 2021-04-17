@@ -1,13 +1,16 @@
 {
   "name": "nft-node-express",
   "version": "1.0.0",
-  "description": "",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon"
   },
-  "author": "Julia Strichash",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Vijay Bhayani",
   "license": "ISC",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.2.6",
@@ -23,7 +26,19 @@
     "process": "^0.11.10",
     "web3": "^1.3.5"
   },
+  "engines": {
+    "node": "14.6.0"
+  },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unblocktechie/tree_nft_backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unblocktechie/tree_nft_backend/issues"
+  },
+  "homepage": "https://github.com/unblocktechie/tree_nft_backend#readme",
+  "description": ""
 }
