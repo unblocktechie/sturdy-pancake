@@ -2,7 +2,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 const fs = require('fs');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-var provider = new HDWalletProvider(process.env.MEMONICS, 'https://data-seed-prebsc-1-s1.binance.org:8545');
+var provider = new HDWalletProvider(process.env.MEMONICS, process.env.BSC_RPC);
 const Web3 = require('web3');
 const { assert } = require('console');
 const { cpuUsage } = require('process');
