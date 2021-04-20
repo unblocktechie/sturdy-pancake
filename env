@@ -1,0 +1,9 @@
+# DB Configurations
+MEMONICS='DUMMY' // Add MEMONICS here
+NFT_ADDRESS='0x47708B0ccaFb47b0E7B611eEAC082172222B6A3b'
+BSC_RPC='https://bsc-dataseed.binance.org'
+NFT_JSON='./src/db/NFT.json'
+
+# local runtime configs
+PORT=3000
+SECRET_JWT=supersecret
